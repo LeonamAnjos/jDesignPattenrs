@@ -1,0 +1,14 @@
+package br.com.designpatterns.structural.ObjectCache;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class ItemManagerTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

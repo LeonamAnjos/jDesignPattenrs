@@ -13,3 +13,8 @@
 1399818762271	Extract method 'getShallowCopy'
 1399834196919	Delete element
 1399834367956	Extract local variable 'userBuilder'
+1399841699940	Extract method 'notifyListeners'
+1399842103569	Extract method 'activateItemOnDataBase'
+1399842517661	Extract local variable 'message'
+1399842867366	Extract local variable 'itemManager'
+1399844395459	Extract local variable 'item'

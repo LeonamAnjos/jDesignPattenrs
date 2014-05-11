@@ -1,0 +1,32 @@
+package br.com.designpatterns.structural.ObjectCache;
+
+import java.util.Vector;
+
+public class ItemCache {
+
+	private final static int MAX_CACHE_SIZE = 5;
+	private Vector<String> cache;
+	
+	public ItemCache() {
+		cache = new Vector<String>();
+	}
+	
+	public String getItem(String code) {
+		String barCode = null;
+
+		int pos = cache.indexOf(code);
+		if(pos != -1) 
+			barCode = cache.get(pos);
+		
+		return barCode;
+	}
+	
+	public void addItem(String code) {
+		// if the max limit is reached, remove the LRU item
+		if (cache.size() == MAX_CACHE_SIZE) {
+			cache.remove(0);
+		}
+		cache.add(code);
+	}
+
+}

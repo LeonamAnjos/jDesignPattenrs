@@ -1,0 +1,22 @@
+package br.com.designpatterns.creational.Prototype;
+
+import static br.com.designpatterns.creational.AbstractFactory.VehicleFactory.LUXURY_VEHICLE;
+import br.com.designpatterns.creational.AbstractFactory.LuxuryCar;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class PersonTest {
+
+	@Test
+	public void should_make_a_shallow_copy_of_a_person() {
+		Person person = new Person("Rosana", LUXURY_VEHICLE);
+		assertNotNull("New person with a luxury vehicle", person);
+		assertEquals("Person name", "Rosana", person.getName());
+		assertNotNull("Person car", person.getCar());
+		assertTrue("Vehicle type", person.getCar() instanceof LuxuryCar);
+		
+		
+	}
+
+}

@@ -11,4 +11,6 @@
 <fullyQualifiedTypeName name="org.junit.Assert"/>
 <fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
 <fullyQualifiedTypeName name="br.com.designpatterns.creational.Builder.User.UserBuilder"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="br.com.designpatterns.structural.ObjectCache.DBManager"/>
 </qualifiedTypeNameHistroy>

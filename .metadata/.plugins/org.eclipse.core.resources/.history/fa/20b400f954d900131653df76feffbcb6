@@ -1,0 +1,21 @@
+package br.com.designpatterns.structural.ObjectCache;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class ItemManagerTest {
+
+	@Test
+	public void should_activate_item_successfully() {
+		String[] codes = { "000001", "000002", "000003", "000004", "000005" };
+		
+		ItemManagerTestable itemManager = new ItemManagerTestable();
+		for (String code : codes) {
+			itemManager.activate(code);
+			assertNotNull("Notify Listeners called", itemManager.getLastMessage());
+			assertEquals("Item activated sucessfully", itemManager.getLastMessage());
+		}
+	}
+
+}
