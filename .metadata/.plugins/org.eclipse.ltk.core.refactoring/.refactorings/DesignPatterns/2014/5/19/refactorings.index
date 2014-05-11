@@ -1,0 +1,15 @@
+1399787959358	Rename type 'VehicleFactory'
+1399788301462	Extract local variable 'vehicleFactory'
+1399788319949	Extract local variable 'car'
+1399789416305	Extract local variable 'suv'
+1399789471249	Extract local variable 'suv'
+1399790048988	Move compilation unit
+1399790055821	Move compilation units
+1399815302861	Rename local variable 'c'
+1399815442507	Rename local variable 'car'
+1399815716703	Extract local variable 'vehicleFactory'
+1399816215142	Extract local variable 'person'
+1399817188454	Extract local variable 'clonedPerson'
+1399818762271	Extract method 'getShallowCopy'
+1399834196919	Delete element
+1399834367956	Extract local variable 'userBuilder'

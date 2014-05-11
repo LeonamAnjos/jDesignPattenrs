@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="br.com.designpatterns.creational.LuxuryVehicleFactory"/>
+<fullyQualifiedTypeName name="org.omg.PortableInterceptor.NON_EXISTENT"/>
+<fullyQualifiedTypeName name="br.com.designpatterns.creational.NonLuxuryVehicleFactory"/>
+<fullyQualifiedTypeName name="java.lang.Cloneable"/>
+<fullyQualifiedTypeName name="br.com.designpatterns.creational.AbstractFactory.VehicleFactory"/>
+<fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="java.lang.AssertionError"/>
+<fullyQualifiedTypeName name="br.com.designpatterns.creational.AbstractFactory.LuxuryCar"/>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
+<fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
+<fullyQualifiedTypeName name="br.com.designpatterns.creational.Builder.User.UserBuilder"/>
+</qualifiedTypeNameHistroy>
