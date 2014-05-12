@@ -1,0 +1,43 @@
+package br.com.designpatterns.collectional.visitor;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class OrderVisitorTest {
+
+	@Test
+	public void should_return_the_order_amount_of_tree_california_orders() {
+		double expectedOrderAmount = 0;
+		
+		OrderVisitor visitor = new OrderVisitor();
+		assertEquals(expectedOrderAmount, visitor.getOrderTotal(), visitor.getOrderTotal());
+		
+		double orderAmount = 100;
+		double addictionalTax = 10;
+		createCaliforniaOrder(orderAmount, addictionalTax).accept(visitor);
+		expectedOrderAmount = expectedOrderAmount + addictionalTax + addictionalTax; 
+		assertEquals(expectedOrderAmount, visitor.getOrderTotal(), visitor.getOrderTotal());
+		
+		orderAmount = 150;
+		addictionalTax = 15;
+		createCaliforniaOrder(orderAmount, addictionalTax).accept(visitor);
+		expectedOrderAmount = expectedOrderAmount + addictionalTax + addictionalTax; 
+		assertEquals(expectedOrderAmount, visitor.getOrderTotal(), visitor.getOrderTotal());
+
+		orderAmount = 260.11;
+		addictionalTax = 26.01;
+		createCaliforniaOrder(orderAmount, addictionalTax).accept(visitor);
+		expectedOrderAmount = expectedOrderAmount + addictionalTax + addictionalTax-1; 
+		assertEquals(expectedOrderAmount, visitor.getOrderTotal(), visitor.getOrderTotal());
+	}
+
+	private CaliforniaOrder createCaliforniaOrder(double orderAmount, double additionalTax) {
+		CaliforniaOrder order = new CaliforniaOrder(orderAmount, additionalTax);
+		assertNotNull(order);
+		assertEquals(orderAmount, order.getOrderAmount(), order.getOrderAmount());
+		assertEquals(additionalTax, order.getAdditionalTax(), order.getAdditionalTax());
+		return order;
+	}
+
+}

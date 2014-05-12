@@ -11,6 +11,15 @@
 <fullyQualifiedTypeName name="org.junit.Assert"/>
 <fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
 <fullyQualifiedTypeName name="br.com.designpatterns.creational.Builder.User.UserBuilder"/>
-<fullyQualifiedTypeName name="java.util.Vector"/>
 <fullyQualifiedTypeName name="br.com.designpatterns.structural.ObjectCache.DBManager"/>
+<fullyQualifiedTypeName name="br.com.designpatterns.collectional.visitor.CaliforniaOrder"/>
+<fullyQualifiedTypeName name="br.com.designpatterns.collectional.visitor.NonCaliforniaOrder"/>
+<fullyQualifiedTypeName name="br.com.designpatterns.collectional.visitor.OverseasOrder"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="br.com.designpatterns.collectional.visitor.OrderVisitor"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.util.logging.Logger"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="br.com.designpatterns.behavioral.NullObject.LoggerFactoryTest"/>
 </qualifiedTypeNameHistroy>

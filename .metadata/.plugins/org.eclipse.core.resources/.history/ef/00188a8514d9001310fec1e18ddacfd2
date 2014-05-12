@@ -1,0 +1,18 @@
+package br.com.designpatterns.creational.Prototype;
+
+import static br.com.designpatterns.creational.AbstractFactory.VehicleFactory.LUXURY_VEHICLE;
+import static org.junit.Assert.assertNotNull;
+
+import org.junit.Test;
+
+public class PersonTest {
+
+	@Test
+	public void should_make_a_shallow_copy_of_a_person() {
+		Person person = new Person("Rosana", LUXURY_VEHICLE);
+		assertNotNull("New person with a luxury vehicle", person);
+		
+		
+	}
+
+}

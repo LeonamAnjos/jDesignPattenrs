@@ -1,0 +1,7 @@
+1399906969440	Extract local variable 'order'
+1399907216194	Extract method 'createCaliforniaOrder'
+1399907241374	Extract local variable 'order'
+1399907281065	Extract local variable 'visitor'
+1399921198388	Move compilation unit
+1399921241329	Extract local variable 'factory'
+1399921263512	Extract local variable 'logger'
